@@ -6,22 +6,33 @@
 `npm init`
 
 * Gerencia as requisições, rotas e URLs, entre outras funcionalidades
-### npm install express
+`### npm install express`
 
 * Rodar o projeto
-### node app.js
+`### node app.js`
 
 * Acessar o projeto no navegador
-### http://localhost:8080/
+`### http://localhost:8080/`
 
 * Instalar o módulo para reiniciar o servidor sempre que houver alteração no código fonte, g significa globalmente
-### npm install -g nodemon
+`### npm install -g nodemon`
 
-Rodar o projeto usando o nodemon
-### nodemon app.js
+* Rodar o projeto usando o nodemon
+`### nodemon app.js`
 
-instalar a dependência para JWT
-### npm install jsonwebtoken
+* Instalar a dependência para JWT
+`### npm install --save jsonwebtoken`
+
+
+* Utilizei o https://generate.plus/en/hex para gerar uma chave hexadecimal
+
+* Utilizei a dependência dotenv, ela gerencia variáveis de ambiente
+`*npm install --save dotenv*`
+
+* Utilizei a dependência cors, ela gerencia variáveis de ambiente
+`*npm install --save cors*`
+
+
 
 ## Autor
 Desenvolvido por Héber Silvério 👋 Fique a vontade para se conectar
